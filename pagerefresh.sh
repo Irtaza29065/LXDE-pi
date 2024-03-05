@@ -2,7 +2,7 @@
 sleep 10
 
 # Allow root user to access X server
-host si:localuser:root
+xhost si:localuser:root
 
 # Run the script with sudo
 sudo -E -u root bash <<EOF
