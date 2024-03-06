@@ -6,7 +6,6 @@ xhost si:localuser:root
 
 # Run the script with sudo
 sudo -E -u root bash <<EOF
-export DISPLAY=:0
 
 # Infinite loop to refresh the page every 100 seconds
 export DISPLAY=:0
