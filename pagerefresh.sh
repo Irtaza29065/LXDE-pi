@@ -11,7 +11,7 @@ sudo -E -u root bash <<EOF
 export DISPLAY=:0
 for ((counter = 1; counter <= 1210; counter++)) #When this reaches 1210, ~7 days will complete and the device will reboot to go through the script again
 do
-    xdotool key F5
+    wtype -P "F5"
     sleep 500             # Page will refresh every 500 seconds
 done
 
