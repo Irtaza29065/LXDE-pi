@@ -8,7 +8,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Launching browsers in incognito to avoid any popups, running in the background
-chromium-browser --start-fullscreen --start-maximized --noerrdialogs --disable-infobars --incognito http://10.4.12.91/library_tv/d5.php &
+chromium-browser --kiosk --start-fullscreen --start-maximized --noerrdialogs --disable-infobars --incognito http://10.4.12.91/library_tv/d5.php &
 #firefox -kiosk -private-window http://10.4.12.91/library_tv/d5.php &
 
 # Hide the mouse from the screen
