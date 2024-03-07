@@ -12,7 +12,7 @@ chromium-browser --start-fullscreen --start-maximized --noerrdialogs --disable-i
 #firefox -kiosk -private-window http://10.4.12.91/library_tv/d5.php &
 
 # Hide the mouse from the screen
-unclutter -idle 1
+unclutter -idle 1 &
 
 # Pull other script which will refresh the page every 100 seconds and restart the device every 24 hours
 /home/cpltv/.config/lxsession/LXDE-pi/pagerefresh.sh
